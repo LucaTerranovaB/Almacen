@@ -1,0 +1,67 @@
+#  LENGUAJE DE MARCADO DE HYPER TEXTO (HTML)
+#  NO ES UN LENGUAJE DE PROGRAMACION YA QUE NO OCUPA VARIABLES. EN SU LUGAR OCUPA "VIÑETAS"
+#  USA ETIQUETAS QUE IDENTIFICAN EL CONTENIDO DE LA PAGINA WEB
+
+# OCUPAR PROTOCOLO TCP/IP PARA ENLAZAR DOCUMENTOS ENTRE 2 DISPOSITIVOS
+
+# ESTRUCTURA WEB:
+
+                    # ESTRUCTURA --> HTML
+                    # PRESENTACION -- > CSS
+                    # COMPORTAMIENTO --> JAVASCRIPT
+'''-------------------------------------------------------------------------------------------'''
+
+# ETIQUETAS --> ES UN FRAGMENTO QUE INDICA AL NAVEGADOR REALIZAR UNA FUNCION O UNA TAREA ESPECIFICA
+# HTML ES UN LENGUAJE POR EL CUAL SE COMUNICAN UNA PAGINA WEB CON EL NAVEGADOR
+
+# ESTRUCTURA BASICA
+'''
+<html>
+
+    <head>
+ 
+        CABECERA------------------------------------
+
+    </head>
+
+    <body>
+
+        BODY------------------------------------
+
+    </body>
+    
+</html>
+'''
+
+
+# ATRIBUTO --> CUALIDAD QUE SE LE PUEDE AGREGAR A UNA ETIQUETA, SU FUNCION ES MODIFICAR EL CONTENIDO EN LA ETIQUETA
+'''-----------------------------------------------------------------------------------------'''
+               # EJEMPLO: etiqueta, atributo, valor del atributo
+               # EJEMPLO: <img,      src= ,      "imagen.png"
+''' -----------------------------------------------------------------------------------------'''
+
+               # LA FUNCION DEL ATRIBUTO ES MODIFICAR EL CONTENIDO QUE TIENE DICHA ETIQUETA
+               # UNA CUALIDAD QUE TIENE UNA ETIQUETA PARA REALIZAR FUNCIONES NUEVAS 
+
+#-----------------------------------------------------------------------------------------------------------
+
+# ESTRUCTURA DE UNA VIÑETA
+
+    # <p class ="fondo"> Texto de contenido </p>
+
+'''Donde: 
+            <p class ="fondo"> (ETIQUETA DE APERTURA)
+
+                -- <P: nombre
+                -- class="fondo" : atributo
+
+            Texto de contenido (CONTENIDO)
+
+            </P> : ETIQUETA DE CIERRE    
+'''
+
+# CONTENEDRORES ----------------------------------------------------------------------
+
+# SON UNOS RECUADROS O ESPACIOS RECTANGULARES QUE PUEDEN COLOCARSE EN CUALQIER PARTE DE LA PAGINA
+# EN ELLAS, PODEMOS INSERTAR CONTENIDO HTML.
+# SU UTILIDAD PRINCIPAL ES VISUAL, PERMITIENDO ORGANIZAR Y DAR ESTRUCTURA Y DISEÑO A LAS PAGIAS HTML
